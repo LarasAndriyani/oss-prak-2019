@@ -19,7 +19,13 @@ print("perkalian a * b = ", a * b)
 print("pembagian a / b = ", a / b)
 
 # modulus
+hasil = a % b
+print("modulus a % b = ", hasil)
+print("modulus b % c = ", hasil % c)
 # silakan diisi bagaimana formulanya dengan a modulus b; b modulus c
 
 # pangkat
+hasil = a ** b
+print("pangkat a^b = ", hasil)
+print("pangkat b^c = ", hasil ** c)
 # silakan diisi bagaimana formulanya dengan a pangkat b; b pangkat c

@@ -11,17 +11,21 @@ print("hasil a - b = ", c)
 
 # perkalian
 c = a*b
-print("hasil a*b = ", c)
+print("hasil a * b = ", c)
 
 # pembagian
 c = a / b
-print("hasil a/b =", c)
+print("hasil a / b = ", c)
 
 # pembagian pembulatan keatas
-# silakan diisi bagaimana formulanya
+from math import*
+
+print("hasil pembulatan keatas 5.7 = ",(ceil(5.79)))
 
 # modulus
-# silakan diisi bagaimana formulanya
+c = a % b
+print("hasil a % b = ", c)
 
 # pangkat
-# silakan diisi bagaimana formulanya
+c = a ** b
+print("hasil a ** b = ", c)
